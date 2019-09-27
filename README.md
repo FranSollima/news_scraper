@@ -14,3 +14,12 @@ En este repositorio se almacenan los scripts para realizar el scrapeado de difer
 
 - **scraper/{fuente}_scraper.py**: Tiene la clase `Scraper{fuente}` con las funciones de scrapeo específicas de la fuente. Hereda las generales de la clase `Scraper`.
 
+#### Lista de diarios disponibles:
+- Clarin
+- Infobae
+- La Nacion
+
+#### Próximos diarios:
+- Página 12
+- Crónica
+- La Izquierda Diario
