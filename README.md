@@ -18,8 +18,8 @@ En este repositorio se almacenan los scripts para realizar el scrapeado de difer
 - Clarin
 - Infobae
 - La Nacion
+- Página 12
 
 #### Próximos diarios:
-- Página 12
 - Crónica
 - La Izquierda Diario

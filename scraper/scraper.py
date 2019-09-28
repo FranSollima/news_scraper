@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
@@ -20,7 +23,7 @@ class Scraper(object):
 			os.makedirs(self.path_descargas)
 		self.path_json_salida = os.path.join(self.path_descargas, '%s - noticias.json' % time.strftime('%Y-%m-%d %H:%M'))
 		# Obtenemos la ultima noticia descargada
-		self.ultima_noticia_descargada = self.get_link_ultima_noticia()
+		self.ultima_tabla_noticias_descargada, self.ultima_noticia_descargada = self.get_ultimo_json()
 
 	def startBrowser(self):
 		self.wd = self.openChrome()
@@ -39,30 +42,31 @@ class Scraper(object):
 		options.add_argument('--disable-gpu')
 		return webdriver.Chrome(chrome_options=options)
 
-	def get_link_ultima_noticia(self):
+	def get_ultimo_json(self):
 		# Buscamos el link de la ultima nota descargada
 		try:
 			ultimo_json = os.path.join(self.path_descargas,sorted(os.listdir(self.path_descargas), reverse=True)[0])
 		except IndexError:
-			return 'No hay nada descargado.'
+			return [], False
 		with open(ultimo_json) as f:
-			ultima_noticia = json.load(f)[0]['link_noticia']
-		return ultima_noticia
+			ultima_tabla_noticias = json.load(f)
+
+		ultima_noticia = ultima_tabla_noticias[0]['link_noticia']
+		return ultima_tabla_noticias, ultima_noticia
 
 	def save_json_noticias(self, tabla_noticias):
-		with open(self.path_json_salida, 'w') as f:
-			json.dump(tabla_noticias, f)
+		if tabla_noticias:
+			with open(self.path_json_salida, 'w') as f:
+				json.dump(tabla_noticias, f)
 
 	def scrape(self):
 		# Tiempo de inicio
 		begin_time = time.time()
 
 		# Obtenemos las ultimas noticias, con sus datos basicos
-		tabla_noticias = False
-		while not tabla_noticias:
-			print('Intentamos obtener la lista de noticias')
-			tabla_noticias = self.get_tabla_noticias()
-			self.restartBrowser()  # Nuevo browser
+		print('Intentamos obtener la lista de noticias')
+		tabla_noticias = self.get_tabla_noticias()
+		self.restartBrowser()  # Nuevo browser
 
 		# Otenemos el cuerpo de las noticias obtenidas
 		print('Obtenemos los datos de las noticias')

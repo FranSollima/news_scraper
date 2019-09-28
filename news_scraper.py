@@ -2,6 +2,7 @@
 from scraper.clarin_scraper import ClarinScraper
 from scraper.lanacion_scraper import LaNacionScraper
 from scraper.infobae_scraper import InfobaeScraper
+from scraper.pagina12_scraper import Pagina12Scraper
 
 # Genericas
 from threading import Thread
@@ -40,10 +41,11 @@ def ejecuta_scraper(scraper):
 			printlog_resultados(resultados)
 			break
 		except Exception, e:
-			printlog('Error ejecutando %s: %s' % (s.nombre, str(e)))
+			printlog('Error ejecutando %s: %s' % (str(scraper), str(e)))
+			printlog(str(e.args))
 
 if __name__ == '__main__':
 	printlog('-------------------------------------------------------------------------')
-	for scraper in (ClarinScraper, LaNacionScraper, InfobaeScraper):
+	for scraper in (ClarinScraper, LaNacionScraper, InfobaeScraper, Pagina12Scraper):
 		thread = Thread(target=ejecuta_scraper, args=(scraper,))
 		thread.start()

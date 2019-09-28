@@ -476,3 +476,238 @@ Se scrapearon las ultimas 9 noticias de la web de Clarin.
 Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-09-27 12:00 - noticias.json.
 El proceso tardo 76 segundos.
 
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando Scraper - Pagina12: 'ascii' codec can't encode character u'\xcd' in position 5: ordinal not in range(128)
+
+
+Se scrapearon las ultimas 47 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-09-27 18:29 - noticias.json.
+El proceso tardo 366 segundos (~6min).
+
+
+Se scrapearon las ultimas 95 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-09-27 18:29 - noticias.json.
+El proceso tardo 492 segundos (~8min).
+
+
+Se scrapearon las ultimas 119 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-09-27 18:29 - noticias.json.
+El proceso tardo 814 segundos (~14min).
+
+-------------------------------------------------------------------------
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - Pagina12: Comienza ejecucion
+Error ejecutando Scraper - Pagina12: 'ascii' codec can't encode character u'\xcd' in position 5: ordinal not in range(128)
+
+Se scrapearon las ultimas 2 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-09-27 18:44 - noticias.json.
+El proceso tardo 24 segundos.
+
+
+Se scrapearon las ultimas 4 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-09-27 18:44 - noticias.json.
+El proceso tardo 31 segundos.
+
+
+Se scrapearon las ultimas 1 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-09-27 18:44 - noticias.json.
+El proceso tardo 338 segundos (~6min).
+
+-------------------------------------------------------------------------
+
+Scraper - Pagina12: Comienza ejecucion
+
+Error ejecutando Scraper - Pagina12: 'ascii' codec can't encode character u'\xcd' in position 5: ordinal not in range(128)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+
+Se scrapearon las ultimas 5 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-09-27 19:09 - noticias.json.
+El proceso tardo 43 segundos.
+
+
+Se scrapearon las ultimas 14 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-09-27 19:09 - noticias.json.
+El proceso tardo 108 segundos.
+
+
+Se scrapearon las ultimas 3 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-09-27 19:09 - noticias.json.
+El proceso tardo 172 segundos (~3min).
+-------------------------------------------------------------------------
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Se scrapearon las ultimas 14 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-09-28 00:00 - noticias.json.
+El proceso tardo 125 segundos (~2min).
+
+
+Se scrapearon las ultimas 44 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-09-28 00:00 - noticias.json.
+El proceso tardo 264 segundos (~4min).
+
+
+Se scrapearon las ultimas 37 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-09-28 00:00 - noticias.json.
+El proceso tardo 270 segundos (~5min).
+
+-------------------------------------------------------------------------
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Se scrapearon las ultimas 16 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-09-28 06:00 - noticias.json.
+El proceso tardo 132 segundos (~2min).
+
+
+Se scrapearon las ultimas 20 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-09-28 06:00 - noticias.json.
+El proceso tardo 182 segundos (~3min).
+
+
+Se scrapearon las ultimas 74 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-09-28 06:00 - noticias.json.
+El proceso tardo 482 segundos (~8min).
+
+-------------------------------------------------------------------------
+
+Scraper - La nacion: Comienza ejecucion
+-------------------------------------------------------------------------
+
+Scraper - La nacion: Comienza ejecucion
+
+Se scrapearon las ultimas 10 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-09-28 12:00 - noticias.json.
+El proceso tardo 92 segundos.
+
+-------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Pagina12: Comienza ejecucion
+Error ejecutando <class 'scraper.pagina12_scraper.Pagina12Scraper'>: 'ascii' codec can't encode character u'\xcd' in position 5: ordinal not in range(128)
+
+Scraper - Pagina12: Comienza ejecucion
+Error ejecutando <class 'scraper.pagina12_scraper.Pagina12Scraper'>: 'ascii' codec can't encode character u'\xcd' in position 5: ordinal not in range(128)
+
+Scraper - Pagina12: Comienza ejecucion
+Error ejecutando <class 'scraper.pagina12_scraper.Pagina12Scraper'>: 'ascii' codec can't encode character u'\xcd' in position 5: ordinal not in range(128)
+
+Scraper - Pagina12: Comienza ejecucion
+
+Se scrapearon las ultimas 2 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-09-28 12:09 - noticias.json.
+El proceso tardo 36 segundos.
+
+Error ejecutando <class 'scraper.pagina12_scraper.Pagina12Scraper'>: Message: chrome not reachable
+  (Session info: headless chrome=76.0.3809.100)
+  (Driver info: chromedriver=72.0.3626.122,platform=Linux 4.9.0-9-amd64 x86_64)
+
+-------------------------------------------------------------------------
+1
+
+Scraper - Pagina12: Comienza ejecucion
+Error ejecutando <class 'scraper.pagina12_scraper.Pagina12Scraper'>: 'ascii' codec can't encode character u'\xcd' in position 5: ordinal not in range(128)
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getitem__', '__getslice__', '__hash__', '__init__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__unicode__', 'args', 'encoding', 'end', 'message', 'object', 'reason', 'start']
+-------------------------------------------------------------------------
+1
+
+Scraper - Pagina12: Comienza ejecucion
+Error ejecutando <class 'scraper.pagina12_scraper.Pagina12Scraper'>: 'ascii' codec can't encode character u'\xcd' in position 5: ordinal not in range(128)
+('ascii', u'EL PA\xcdS', 5, 6, 'ordinal not in range(128)')
+ascii
+6
+
+-------------------------------------------------------------------------
+
+-------------------------------------------------------------------------
+1
+Error ejecutando <class 'scraper.pagina12_scraper.Pagina12Scraper'>: integer division or modulo by zero
+('integer division or modulo by zero',)
+-------------------------------------------------------------------------
+1
+Error ejecutando <class 'scraper.pagina12_scraper.Pagina12Scraper'>: integer division or modulo by zero
+('integer division or modulo by zero',)
+-------------------------------------------------------------------------
+1
+2
+Scraper - Pagina12
+
+Scraper - Pagina12: Comienza ejecucion
+Error ejecutando <class 'scraper.pagina12_scraper.Pagina12Scraper'>: 'ascii' codec can't encode character u'\xcd' in position 5: ordinal not in range(128)
+('ascii', u'EL PA\xcdS', 5, 6, 'ordinal not in range(128)')
+ascii
+6
+
+-------------------------------------------------------------------------
+Scraper - Pagina12
+
+Scraper - Pagina12: Comienza ejecucion
+
+Se scrapearon las ultimas 42 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-09-28 12:42 - noticias.json.
+El proceso tardo 142 segundos (~2min).
+
+-------------------------------------------------------------------------
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Se scrapearon las ultimas 13 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-09-28 13:02 - noticias.json.
+El proceso tardo 128 segundos (~2min).
+
+
+Se scrapearon las ultimas 42 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-09-28 13:02 - noticias.json.
+El proceso tardo 182 segundos (~3min).
+
+
+Se scrapearon las ultimas 39 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-09-28 13:02 - noticias.json.
+El proceso tardo 214 segundos (~4min).
+
+
+Se scrapearon las ultimas 44 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-09-28 13:02 - noticias.json.
+El proceso tardo 308 segundos (~5min).
+
