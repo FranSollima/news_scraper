@@ -711,3 +711,243 @@ Se scrapearon las ultimas 44 noticias de la web de Clarin.
 Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-09-28 13:02 - noticias.json.
 El proceso tardo 308 segundos (~5min).
 
+-------------------------------------------------------------------------
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Se scrapearon las ultimas 8 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-09-28 18:00 - noticias.json.
+El proceso tardo 88 segundos.
+
+
+Se scrapearon las ultimas 18 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-09-28 18:00 - noticias.json.
+El proceso tardo 166 segundos (~3min).
+
+
+Se scrapearon las ultimas 43 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-09-28 18:00 - noticias.json.
+El proceso tardo 241 segundos (~4min).
+
+
+Se scrapearon las ultimas 57 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-09-28 18:00 - noticias.json.
+El proceso tardo 416 segundos (~7min).
+
+-------------------------------------------------------------------------
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Se scrapearon las ultimas 13 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-09-29 00:00 - noticias.json.
+El proceso tardo 120 segundos.
+
+
+Se scrapearon las ultimas 18 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-09-29 00:00 - noticias.json.
+El proceso tardo 154 segundos (~3min).
+
+
+Se scrapearon las ultimas 45 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-09-29 00:00 - noticias.json.
+El proceso tardo 257 segundos (~4min).
+
+
+Se scrapearon las ultimas 45 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-09-29 00:00 - noticias.json.
+El proceso tardo 311 segundos (~5min).
+
+-------------------------------------------------------------------------
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - Pagina12: Comienza ejecucion
+
+Se scrapearon las ultimas 4 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-09-29 06:00 - noticias.json.
+El proceso tardo 46 segundos.
+
+
+Se scrapearon las ultimas 18 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-09-29 06:00 - noticias.json.
+El proceso tardo 129 segundos (~2min).
+
+
+Se scrapearon las ultimas 33 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-09-29 06:00 - noticias.json.
+El proceso tardo 255 segundos (~4min).
+
+
+Se scrapearon las ultimas 67 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-09-29 06:00 - noticias.json.
+El proceso tardo 495 segundos (~8min).
+
+-------------------------------------------------------------------------
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Se scrapearon las ultimas 2 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-09-29 12:00 - noticias.json.
+El proceso tardo 38 segundos.
+
+
+Se scrapearon las ultimas 8 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-09-29 12:00 - noticias.json.
+El proceso tardo 82 segundos.
+
+
+Se scrapearon las ultimas 26 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-09-29 12:00 - noticias.json.
+El proceso tardo 184 segundos (~3min).
+
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+
+Se scrapearon las ultimas 41 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-09-29 12:06 - noticias.json.
+El proceso tardo 206 segundos (~3min).
+
+-------------------------------------------------------------------------
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Se scrapearon las ultimas 17 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-09-29 18:00 - noticias.json.
+El proceso tardo 151 segundos (~3min).
+
+
+Se scrapearon las ultimas 37 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-09-29 18:00 - noticias.json.
+El proceso tardo 186 segundos (~3min).
+
+
+Se scrapearon las ultimas 46 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-09-29 18:00 - noticias.json.
+El proceso tardo 312 segundos (~5min).
+
+
+Se scrapearon las ultimas 53 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-09-29 18:00 - noticias.json.
+El proceso tardo 321 segundos (~5min).
+
+-------------------------------------------------------------------------
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Se scrapearon las ultimas 12 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-09-30 00:00 - noticias.json.
+El proceso tardo 88 segundos.
+
+
+Se scrapearon las ultimas 16 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-09-30 00:00 - noticias.json.
+El proceso tardo 143 segundos (~2min).
+
+
+Se scrapearon las ultimas 47 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-09-30 00:00 - noticias.json.
+El proceso tardo 270 segundos (~5min).
+
+
+Se scrapearon las ultimas 54 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-09-30 00:00 - noticias.json.
+El proceso tardo 385 segundos (~6min).
+
+-------------------------------------------------------------------------
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Se scrapearon las ultimas 8 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-09-30 06:00 - noticias.json.
+El proceso tardo 64 segundos.
+
+
+Se scrapearon las ultimas 15 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-09-30 06:00 - noticias.json.
+El proceso tardo 123 segundos (~2min).
+
+
+Se scrapearon las ultimas 25 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-09-30 06:00 - noticias.json.
+El proceso tardo 148 segundos (~2min).
+
+
+Se scrapearon las ultimas 43 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-09-30 06:00 - noticias.json.
+El proceso tardo 252 segundos (~4min).
+
+-------------------------------------------------------------------------
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Se scrapearon las ultimas 6 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-09-30 12:00 - noticias.json.
+El proceso tardo 68 segundos.
+
+
+Se scrapearon las ultimas 66 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-09-30 12:00 - noticias.json.
+El proceso tardo 297 segundos (~5min).
+
+Error ejecutando <class 'scraper.lanacion_scraper.LaNacionScraper'>: 
+()
+
+Scraper - La nacion: Comienza ejecucion
+
+Se scrapearon las ultimas 64 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-09-30 12:00 - noticias.json.
+El proceso tardo 505 segundos (~8min).
+
+
+Se scrapearon las ultimas 33 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-09-30 12:06 - noticias.json.
+El proceso tardo 230 segundos (~4min).
+
