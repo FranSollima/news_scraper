@@ -1510,3 +1510,2142 @@ Se scrapearon las ultimas 59 noticias de la web de Clarin.
 Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-10-04 12:01 - noticias.json.
 El proceso tardo 690 segundos (~12min).
 
+-------------------------------------------------------------------------
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Pagina12: Comienza ejecucion
+
+Se scrapearon las ultimas 30 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-10-04 18:00 - noticias.json.
+El proceso tardo 150 segundos (~3min).
+
+Error ejecutando <class 'scraper.clarin_scraper.ClarinScraper'>: Message: no such element: Unable to locate element: {"method":"class name","selector":"entry-head"}
+  (Session info: headless chrome=76.0.3809.100)
+  (Driver info: chromedriver=72.0.3626.122,platform=Linux 4.9.0-9-amd64 x86_64)
+
+()
+
+Scraper - Clarin: Comienza ejecucion
+
+Se scrapearon las ultimas 45 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-10-04 18:00 - noticias.json.
+El proceso tardo 281 segundos (~5min).
+
+Error ejecutando <class 'scraper.clarin_scraper.ClarinScraper'>: Message: no such element: Unable to locate element: {"method":"class name","selector":"entry-head"}
+  (Session info: headless chrome=76.0.3809.100)
+  (Driver info: chromedriver=72.0.3626.122,platform=Linux 4.9.0-9-amd64 x86_64)
+
+()
+
+Scraper - Clarin: Comienza ejecucion
+
+Se scrapearon las ultimas 86 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-10-04 18:00 - noticias.json.
+El proceso tardo 430 segundos (~7min).
+
+Error ejecutando <class 'scraper.clarin_scraper.ClarinScraper'>: Message: no such element: Unable to locate element: {"method":"class name","selector":"entry-head"}
+  (Session info: headless chrome=76.0.3809.100)
+  (Driver info: chromedriver=72.0.3626.122,platform=Linux 4.9.0-9-amd64 x86_64)
+
+()
+
+Scraper - Clarin: Comienza ejecucion
+
+Se scrapearon las ultimas 126 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-10-04 18:11 - noticias.json.
+El proceso tardo 1103 segundos (~18min).
+
+-------------------------------------------------------------------------
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - Pagina12: Comienza ejecucion
+
+Se scrapearon las ultimas 11 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-10-05 00:00 - noticias.json.
+El proceso tardo 90 segundos.
+
+
+Se scrapearon las ultimas 17 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-10-05 00:00 - noticias.json.
+El proceso tardo 128 segundos (~2min).
+
+
+Se scrapearon las ultimas 54 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-10-05 00:00 - noticias.json.
+El proceso tardo 291 segundos (~5min).
+
+
+Se scrapearon las ultimas 49 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-10-05 00:00 - noticias.json.
+El proceso tardo 430 segundos (~7min).
+
+-------------------------------------------------------------------------
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Se scrapearon las ultimas 14 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-10-05 06:00 - noticias.json.
+El proceso tardo 105 segundos.
+
+
+Se scrapearon las ultimas 24 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-10-05 06:00 - noticias.json.
+El proceso tardo 116 segundos.
+
+
+Se scrapearon las ultimas 16 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-10-05 06:00 - noticias.json.
+El proceso tardo 150 segundos (~3min).
+
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+
+Se scrapearon las ultimas 88 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-10-05 08:55 - noticias.json.
+El proceso tardo 471 segundos (~8min).
+
+-------------------------------------------------------------------------
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Se scrapearon las ultimas 6 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-10-05 12:00 - noticias.json.
+El proceso tardo 61 segundos.
+
+
+Se scrapearon las ultimas 9 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-10-05 12:00 - noticias.json.
+El proceso tardo 75 segundos.
+
+
+Se scrapearon las ultimas 32 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-10-05 12:00 - noticias.json.
+El proceso tardo 169 segundos (~3min).
+
+
+Se scrapearon las ultimas 30 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-10-05 12:00 - noticias.json.
+El proceso tardo 236 segundos (~4min).
+
+-------------------------------------------------------------------------
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Se scrapearon las ultimas 22 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-10-05 18:00 - noticias.json.
+El proceso tardo 172 segundos (~3min).
+
+
+Se scrapearon las ultimas 38 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-10-05 18:00 - noticias.json.
+El proceso tardo 180 segundos (~3min).
+
+
+Se scrapearon las ultimas 46 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-10-05 18:00 - noticias.json.
+El proceso tardo 254 segundos (~4min).
+
+
+Se scrapearon las ultimas 55 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-10-05 18:00 - noticias.json.
+El proceso tardo 468 segundos (~8min).
+
+-------------------------------------------------------------------------
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Se scrapearon las ultimas 8 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-10-06 00:00 - noticias.json.
+El proceso tardo 80 segundos.
+
+
+Se scrapearon las ultimas 10 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-10-06 00:00 - noticias.json.
+El proceso tardo 84 segundos.
+
+
+Se scrapearon las ultimas 44 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-10-06 00:00 - noticias.json.
+El proceso tardo 245 segundos (~4min).
+
+
+Se scrapearon las ultimas 41 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-10-06 00:00 - noticias.json.
+El proceso tardo 350 segundos (~6min).
+
+-------------------------------------------------------------------------
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Se scrapearon las ultimas 6 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-10-06 06:00 - noticias.json.
+El proceso tardo 49 segundos.
+
+
+Se scrapearon las ultimas 19 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-10-06 06:00 - noticias.json.
+El proceso tardo 116 segundos.
+
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+
+Se scrapearon las ultimas 43 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-10-06 06:00 - noticias.json.
+El proceso tardo 371 segundos (~6min).
+
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+-------------------------------------------------------------------------
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Se scrapearon las ultimas 8 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-10-06 12:00 - noticias.json.
+El proceso tardo 74 segundos.
+
+
+Se scrapearon las ultimas 11 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-10-06 12:00 - noticias.json.
+El proceso tardo 98 segundos.
+
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+
+Se scrapearon las ultimas 29 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-10-06 12:00 - noticias.json.
+El proceso tardo 258 segundos (~4min).
+
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+-------------------------------------------------------------------------
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Se scrapearon las ultimas 14 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-10-06 18:00 - noticias.json.
+El proceso tardo 128 segundos (~2min).
+
+
+Se scrapearon las ultimas 31 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-10-06 18:00 - noticias.json.
+El proceso tardo 180 segundos (~3min).
+
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+
+Se scrapearon las ultimas 52 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-10-06 18:00 - noticias.json.
+El proceso tardo 514 segundos (~9min).
+
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+-------------------------------------------------------------------------
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - Pagina12: Comienza ejecucion
+
+Se scrapearon las ultimas 16 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-10-07 00:00 - noticias.json.
+El proceso tardo 142 segundos (~2min).
+
+
+Se scrapearon las ultimas 18 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-10-07 00:00 - noticias.json.
+El proceso tardo 201 segundos (~3min).
+
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+
+Se scrapearon las ultimas 59 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-10-07 00:00 - noticias.json.
+El proceso tardo 581 segundos (~10min).
+
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+-------------------------------------------------------------------------
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Se scrapearon las ultimas 4 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-10-07 06:00 - noticias.json.
+El proceso tardo 55 segundos.
+
+
+Se scrapearon las ultimas 7 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-10-07 06:00 - noticias.json.
+El proceso tardo 87 segundos.
+
+
+Se scrapearon las ultimas 5 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-10-07 06:00 - noticias.json.
+El proceso tardo 229 segundos (~4min).
+
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
+()
+
+Scraper - Infobae: Comienza ejecucion
