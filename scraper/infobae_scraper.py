@@ -9,7 +9,7 @@ class InfobaeScraper(Scraper):
 	def __init__(self, root_dir):
 		super(InfobaeScraper, self).__init__(root_dir, 'infobae')
 
-	def get_tabla_noticias(self, nro_noticias_maxima=300, limite_tiempo=20):
+	def get_tabla_noticias(self, nro_noticias_maxima=400, limite_tiempo=20):
 		# Abrimos la pagina con las ultimas noticias
 		self.wd.get('https://www.infobae.com/ultimas-noticias/')
 
@@ -122,8 +122,9 @@ class InfobaeScraper(Scraper):
 					cuerpo += bloque_texto.text + '\n'
 
 			return fecha, hora, categoria, resumen, autor, cuerpo
-		except:
-			import ipdb; ipdb.set_trace()
+		except Exception, e:
+			raise e
+			# import ipdb; ipdb.set_trace()
 
 	def add_cuerpo_noticias(self, tabla_noticias):
 		# Abrimos cada noticia y obtenemos su cuerpo
@@ -137,8 +138,9 @@ class InfobaeScraper(Scraper):
 				tabla_noticias[i]['resumen'] = resumen
 				tabla_noticias[i]['autor'] = autor
 				tabla_noticias[i]['cuerpo'] = cuerpo
-			except:
-				import ipdb; ipdb.set_trace()
+			except Exception, e:
+				raise e
+				# import ipdb; ipdb.set_trace()
 			print(i+1)
 
 		return tabla_noticias

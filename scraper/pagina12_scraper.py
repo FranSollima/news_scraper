@@ -144,8 +144,8 @@ class Pagina12Scraper(Scraper):
 
 			return fecha, hora, volanta, resumen, autor, cuerpo
 		except Exception, e:
-			print(str(e))
-			import ipdb; ipdb.set_trace()
+			raise e
+			# import ipdb; ipdb.set_trace()
 
 	def add_cuerpo_noticias(self, tabla_noticias):
 		# Abrimos cada noticia y obtenemos su cuerpo
@@ -160,8 +160,9 @@ class Pagina12Scraper(Scraper):
 				tabla_noticias[i]['resumen'] = resumen
 				tabla_noticias[i]['autor'] = autor
 				tabla_noticias[i]['cuerpo'] = cuerpo
-			except:
-				import ipdb; ipdb.set_trace()
+			except Exception, e:
+				raise e
+				# import ipdb; ipdb.set_trace()
 			print(i+1)
 
 		return tabla_noticias
