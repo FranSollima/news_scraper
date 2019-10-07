@@ -3648,4 +3648,7 @@ Scraper - Infobae: Comienza ejecucion
 Error ejecutando <class 'scraper.infobae_scraper.InfobaeScraper'>: 
 ()
 
-Scraper - Infobae: Comienza ejecucion <-
+Se scrapearon las ultimas 272 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-10-07 09:47 - noticias.json.
+El proceso tardo 1282 segundos (~21min).
+

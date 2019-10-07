@@ -22,12 +22,12 @@ class LaNacionScraper(Scraper):
 			while len(self.wd.find_element_by_class_name('listado').find_elements_by_tag_name('article')) <= nro_noticias:
 				# Si pasa demasiado tiempo, se trabo la pagina. Reiniciamos el browser
 				if time.time() - begin_time > limite_tiempo:
-					print('Timeout error intentando obtener la lista de noticias. Reiniciamos el Browser.')
+					# print('Timeout error intentando obtener la lista de noticias. Reiniciamos el Browser.')
 					return False
 			# Vemos las noticias presentes en la pagina
 			noticias_cargadas_en_browser = self.wd.find_element_by_class_name('listado').find_elements_by_tag_name('article')
 			nro_noticias = len(noticias_cargadas_en_browser)
-			print(nro_noticias)
+			# print(nro_noticias)
 			# Si ya aparecio la ultima noticia bajada, cargamos hasta ahi
 			links_noticias_cargadas_en_browser = [elem.find_element_by_tag_name('a').get_attribute('href') for elem in noticias_cargadas_en_browser]
 			if self.ultima_noticia_descargada in links_noticias_cargadas_en_browser:
@@ -58,7 +58,7 @@ class LaNacionScraper(Scraper):
 				'link_foto': link_foto,
 				'resumen': ''
 			})
-			print(len(tabla_noticias))
+			# print(len(tabla_noticias))
 
 		return tabla_noticias
 
@@ -84,7 +84,7 @@ class LaNacionScraper(Scraper):
 
 		# Si la nota no tiene cuerpo, es porque se bloqueo la pagina. Reiniciamos el browser (solo una vez)
 		if not self.wd.find_elements_by_xpath('//section[@id="cuerpo"]/p'):
-			print('La pagina se bloqueo. Reiniciamos el browser y recargamos.')
+			# print('La pagina se bloqueo. Reiniciamos el browser y recargamos.')
 			self.restartBrowser()
 			self.wd.get(noticia['link_noticia'])
 
@@ -136,6 +136,6 @@ class LaNacionScraper(Scraper):
 			tabla_noticias[i]['etiqueta'] = etiqueta
 			tabla_noticias[i]['autor'] = autor
 			tabla_noticias[i]['cuerpo'] = cuerpo
-			print(i+1)
+			# print(i+1)
 
 		return tabla_noticias

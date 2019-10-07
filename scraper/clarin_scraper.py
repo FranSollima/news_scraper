@@ -22,12 +22,12 @@ class ClarinScraper(Scraper):
 			while len(self.wd.find_element_by_class_name('listado').find_elements_by_tag_name('article')) <= nro_noticias:
 				# Si pasa demasiado tiempo, se trabo la pagina. Reiniciamos el browser
 				if time.time() - begin_time > limite_tiempo:
-					print('Timeout error intentando obtener la lista de noticias. Reiniciamos el Browser.')
+					# print('Timeout error intentando obtener la lista de noticias. Reiniciamos el Browser.')
 					return False
 			# Vemos las noticias presentes en la pagina
 			noticias_cargadas_en_browser = self.wd.find_element_by_class_name('listado').find_elements_by_tag_name('article')
 			nro_noticias = len(noticias_cargadas_en_browser)
-			print(nro_noticias)
+			# print(nro_noticias)
 			# Si ya aparecio la ultima noticia bajada, cargamos hasta ahi
 			links_noticias_cargadas_en_browser = [elem.find_element_by_tag_name('a').get_attribute('href') for elem in noticias_cargadas_en_browser]
 			if self.ultima_noticia_descargada in links_noticias_cargadas_en_browser:
@@ -70,7 +70,7 @@ class ClarinScraper(Scraper):
 				'categorias': categorias,
 				'etiquetas': etiquetas
 			})
-			print(len(tabla_noticias))
+			# print(len(tabla_noticias))
 
 		return tabla_noticias
 
@@ -90,14 +90,14 @@ class ClarinScraper(Scraper):
 					max_similitud = similitud
 					link_nuevo = link
 
-			print('Se reemplazo el link: %s por %s' % (noticia['link_noticia'], link_nuevo))
+			# print('Se reemplazo el link: %s por %s' % (noticia['link_noticia'], link_nuevo))
 			noticia['link_noticia'] = link_nuevo
 			self.restartBrowser()
 			self.wd.get(noticia['link_noticia'])
 
 		# Si la nota no tiene cuerpo, es porque se bloqueo la pagina. Reiniciamos el browser (solo una vez)
 		if self.wd.find_elements_by_xpath('//div[@class="body-nota"]/p') and not [elem.text for elem in self.wd.find_elements_by_xpath('//div[@class="body-nota"]/p') if elem.text]:
-			print('La pagina se bloqueo. Reiniciamos el browser y recargamos.')
+			# print('La pagina se bloqueo. Reiniciamos el browser y recargamos.')
 			self.restartBrowser()
 			self.wd.get(noticia['link_noticia'])
 
@@ -131,6 +131,6 @@ class ClarinScraper(Scraper):
 			tabla_noticias[i]['hora'] = hora
 			tabla_noticias[i]['autor'] = autor
 			tabla_noticias[i]['cuerpo'] = cuerpo
-			print(i+1)
+			# print(i+1)
 
 		return tabla_noticias

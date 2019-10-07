@@ -149,7 +149,7 @@ class Pagina12Scraper(Scraper):
 
 	def add_cuerpo_noticias(self, tabla_noticias):
 		# Abrimos cada noticia y obtenemos su cuerpo
-		print(len(tabla_noticias))
+		# print(len(tabla_noticias))
 		for i in range(len(tabla_noticias)):
 			# Obtenemos el cuerpo de la noticia
 			try:
@@ -163,6 +163,6 @@ class Pagina12Scraper(Scraper):
 			except Exception, e:
 				raise e
 				# import ipdb; ipdb.set_trace()
-			print(i+1)
+			# print(i+1)
 
 		return tabla_noticias

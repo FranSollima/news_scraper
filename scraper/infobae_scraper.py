@@ -22,12 +22,12 @@ class InfobaeScraper(Scraper):
 			while len(self.wd.find_element_by_class_name('result-listing').find_elements_by_tag_name('article')) <= nro_noticias:
 				# Si pasa demasiado tiempo, se trabo la pagina. Reiniciamos el browser
 				if time.time() - begin_time > limite_tiempo:
-					print('Timeout error intentando obtener la lista de noticias. Reiniciamos el Browser.')
+					# print('Timeout error intentando obtener la lista de noticias. Reiniciamos el Browser.')
 					return False
 			# Vemos las noticias presentes en la pagina
 			noticias_cargadas_en_browser = self.wd.find_element_by_class_name('result-listing').find_elements_by_tag_name('article')
 			nro_noticias = len(noticias_cargadas_en_browser)
-			print(nro_noticias)
+			# print(nro_noticias)
 			# Si ya aparecio la ultima noticia bajada, cargamos hasta ahi
 			links_noticias_cargadas_en_browser = [elem.find_element_by_tag_name('a').get_attribute('href') for elem in noticias_cargadas_en_browser]
 			if self.ultima_noticia_descargada in links_noticias_cargadas_en_browser:
@@ -61,7 +61,7 @@ class InfobaeScraper(Scraper):
 				'resumen': resumen,
 				'etiquetas': []
 			})
-			print(len(tabla_noticias))
+			# print(len(tabla_noticias))
 
 		return tabla_noticias
 
@@ -141,6 +141,6 @@ class InfobaeScraper(Scraper):
 			except Exception, e:
 				raise e
 				# import ipdb; ipdb.set_trace()
-			print(i+1)
+			# print(i+1)
 
 		return tabla_noticias
