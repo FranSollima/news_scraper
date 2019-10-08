@@ -3681,3 +3681,159 @@ Se scrapearon las ultimas 54 noticias de la web de Clarin.
 Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-10-07 12:00 - noticias.json.
 El proceso tardo 569 segundos (~9min).
 
+-------------------------------------------------------------------------
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Se scrapearon las ultimas 35 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-10-07 18:00 - noticias.json.
+El proceso tardo 161 segundos (~3min).
+
+
+Se scrapearon las ultimas 34 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-10-07 18:00 - noticias.json.
+El proceso tardo 222 segundos (~4min).
+
+
+Se scrapearon las ultimas 70 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-10-07 18:00 - noticias.json.
+El proceso tardo 400 segundos (~7min).
+
+
+Se scrapearon las ultimas 82 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-10-07 18:00 - noticias.json.
+El proceso tardo 733 segundos (~12min).
+
+-------------------------------------------------------------------------
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Se scrapearon las ultimas 12 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-10-08 00:00 - noticias.json.
+El proceso tardo 93 segundos.
+
+
+Se scrapearon las ultimas 17 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-10-08 00:00 - noticias.json.
+El proceso tardo 194 segundos (~3min).
+
+
+Se scrapearon las ultimas 51 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-10-08 00:00 - noticias.json.
+El proceso tardo 240 segundos (~4min).
+
+
+Se scrapearon las ultimas 50 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-10-08 00:00 - noticias.json.
+El proceso tardo 450 segundos (~8min).
+
+-------------------------------------------------------------------------
+
+Scraper - Pagina12: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+Error ejecutando <class 'scraper.pagina12_scraper.Pagina12Scraper'>: list index out of range
+('list index out of range',)
+
+Scraper - Pagina12: Comienza ejecucion
+
+Se scrapearon las ultimas 12 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-10-08 06:00 - noticias.json.
+El proceso tardo 103 segundos.
+
+
+Se scrapearon las ultimas 29 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-10-08 06:00 - noticias.json.
+El proceso tardo 145 segundos (~2min).
+
+
+Se scrapearon las ultimas 21 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-10-08 06:00 - noticias.json.
+El proceso tardo 172 segundos (~3min).
+
+
+Se scrapearon las ultimas 44 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-10-08 06:00 - noticias.json.
+El proceso tardo 226 segundos (~4min).
+
+-------------------------------------------------------------------------
+
+Scraper - La nacion: Comienza ejecucion
+
+Scraper - Infobae: Comienza ejecucion
+
+Scraper - Clarin: Comienza ejecucion
+
+Scraper - Pagina12: Comienza ejecucion
+Error ejecutando <class 'scraper.pagina12_scraper.Pagina12Scraper'>: list index out of range
+('list index out of range',)
+
+Scraper - Pagina12: Comienza ejecucion
+Error ejecutando <class 'scraper.pagina12_scraper.Pagina12Scraper'>: list index out of range
+('list index out of range',)
+
+Scraper - Pagina12: Comienza ejecucion
+Error ejecutando <class 'scraper.pagina12_scraper.Pagina12Scraper'>: list index out of range
+('list index out of range',)
+
+Scraper - Pagina12: Comienza ejecucion
+Error ejecutando <class 'scraper.pagina12_scraper.Pagina12Scraper'>: list index out of range
+('list index out of range',)
+
+Scraper - Pagina12: Comienza ejecucion
+Error ejecutando <class 'scraper.pagina12_scraper.Pagina12Scraper'>: list index out of range
+('list index out of range',)
+
+Scraper - Pagina12: Comienza ejecucion
+Error ejecutando <class 'scraper.pagina12_scraper.Pagina12Scraper'>: list index out of range
+('list index out of range',)
+
+Scraper - Pagina12: Comienza ejecucion
+Error ejecutando <class 'scraper.pagina12_scraper.Pagina12Scraper'>: list index out of range
+('list index out of range',)
+
+Scraper - Pagina12: Comienza ejecucion
+Error ejecutando <class 'scraper.pagina12_scraper.Pagina12Scraper'>: list index out of range
+('list index out of range',)
+
+Scraper - Pagina12: Comienza ejecucion
+Error ejecutando <class 'scraper.pagina12_scraper.Pagina12Scraper'>: list index out of range
+('list index out of range',)
+
+Scraper - Pagina12: Comienza ejecucion
+
+Se scrapearon las ultimas 27 noticias de la web de La nacion.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/lanacion/2019-10-08 12:00 - noticias.json.
+El proceso tardo 241 segundos (~4min).
+
+
+Se scrapearon las ultimas 29 noticias de la web de Pagina12.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/pagina12/2019-10-08 12:02 - noticias.json.
+El proceso tardo 165 segundos (~3min).
+
+
+Se scrapearon las ultimas 77 noticias de la web de Infobae.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/infobae/2019-10-08 12:00 - noticias.json.
+El proceso tardo 415 segundos (~7min).
+
+
+Se scrapearon las ultimas 73 noticias de la web de Clarin.
+Se guardo lo scrapeado en el archivo /home/francisco/news_scraper/descargas/clarin/2019-10-08 12:00 - noticias.json.
+El proceso tardo 694 segundos (~12min).
+
