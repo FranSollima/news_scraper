@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from scraper import Scraper
+from .scraper import Scraper
 import time
 
 class InfobaeScraper(Scraper):
@@ -122,7 +122,7 @@ class InfobaeScraper(Scraper):
 					cuerpo += bloque_texto.text + '\n'
 
 			return fecha, hora, categoria, resumen, autor, cuerpo
-		except Exception, e:
+		except Exception as e:
 			raise e
 			# import ipdb; ipdb.set_trace()
 
@@ -138,7 +138,7 @@ class InfobaeScraper(Scraper):
 				tabla_noticias[i]['resumen'] = resumen
 				tabla_noticias[i]['autor'] = autor
 				tabla_noticias[i]['cuerpo'] = cuerpo
-			except Exception, e:
+			except Exception as e:
 				raise e
 				# import ipdb; ipdb.set_trace()
 			# print(i+1)

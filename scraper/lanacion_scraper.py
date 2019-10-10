@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from scraper import Scraper
+from .scraper import Scraper
 import time
 
 class LaNacionScraper(Scraper):
@@ -128,8 +128,9 @@ class LaNacionScraper(Scraper):
 			# Obtenemos el cuerpo de la noticia
 			try:
 				fecha, hora, categoria, etiqueta, autor, cuerpo = self.get_cuerpo_noticia(tabla_noticias[i])
-			except:
-				import ipdb; ipdb.set_trace()
+			except Exception as e:
+				raise e
+				# import ipdb; ipdb.set_trace()
 			tabla_noticias[i]['fecha'] = fecha
 			tabla_noticias[i]['hora'] = hora
 			tabla_noticias[i]['categoria'] = categoria

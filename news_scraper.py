@@ -32,15 +32,18 @@ El proceso tardo {tiempo_seg} segundos{tiempo_alt}.
 	printlog(texto_resultados)
 
 def ejecuta_scraper(scraper):
-	# Cada ejecucion se repite hasta que termine sin error
-	while True:
+	# Cada ejecucion se repite hasta que termine sin error, como maximo max_retries
+	max_retries = 10
+	retries = 0
+	while retries < max_retries:
 		try:
 			s = scraper(root_dir)
 			printlog('\n%s: Comienza ejecucion' % s.nombre)
 			resultados = s.scrape()
 			printlog_resultados(resultados)
 			break
-		except Exception, e:
+		except Exception as e:
+			retries += 1
 			printlog('Error ejecutando %s: %s' % (str(scraper), str(e)))
 			printlog(str(e.args))
 

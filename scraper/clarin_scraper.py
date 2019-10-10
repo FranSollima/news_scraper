@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from scraper import Scraper
+from .scraper import Scraper
 import time
 
 class ClarinScraper(Scraper):

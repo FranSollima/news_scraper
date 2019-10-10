@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from scraper import Scraper
+from .scraper import Scraper
 import datetime
 
 class Pagina12Scraper(Scraper):
@@ -143,7 +143,7 @@ class Pagina12Scraper(Scraper):
 					cuerpo += bloque_texto.text + '\n'
 
 			return fecha, hora, volanta, resumen, autor, cuerpo
-		except Exception, e:
+		except Exception as e:
 			raise e
 			# import ipdb; ipdb.set_trace()
 
@@ -160,7 +160,7 @@ class Pagina12Scraper(Scraper):
 				tabla_noticias[i]['resumen'] = resumen
 				tabla_noticias[i]['autor'] = autor
 				tabla_noticias[i]['cuerpo'] = cuerpo
-			except Exception, e:
+			except Exception as e:
 				raise e
 				# import ipdb; ipdb.set_trace()
 			# print(i+1)
