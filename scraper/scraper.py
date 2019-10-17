@@ -16,6 +16,7 @@ class Scraper(object):
 		self.fuente = fuente.capitalize()
 		self.nombre = 'Scraper - %s' % self.fuente
 		# Abrimos el browser
+		self.chrome_bin = os.path.join(root_dir, 'bin', 'chromedriver')
 		self.startBrowser()
 		# Guardamos el path del archivo de salida
 		self.path_descargas = os.path.join(root_dir, 'descargas', fuente.replace(' ', '').lower())
@@ -36,11 +37,11 @@ class Scraper(object):
 	def openChrome(self, headless=True):
 		# Abrimos el navegador
 		if not headless:
-			return webdriver.Chrome()
+			return webdriver.Chrome(self.chrome_bin)
 		options = Options()
 		options.add_argument('--headless')
 		options.add_argument('--disable-gpu')
-		return webdriver.Chrome(chrome_options=options)
+		return webdriver.Chrome(self.chrome_bin, chrome_options=options)
 
 	def get_ultimo_json(self):
 		# Buscamos el link de la ultima nota descargada

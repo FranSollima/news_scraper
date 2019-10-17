@@ -9,7 +9,7 @@ class InfobaeScraper(Scraper):
 	def __init__(self, root_dir):
 		super(InfobaeScraper, self).__init__(root_dir, 'infobae')
 
-	def get_tabla_noticias(self, nro_noticias_maxima=400, limite_tiempo=20):
+	def get_tabla_noticias(self, nro_noticias_maxima=600, limite_tiempo=20):
 		# Abrimos la pagina con las ultimas noticias
 		self.wd.get('https://www.infobae.com/ultimas-noticias/')
 
@@ -91,10 +91,12 @@ class InfobaeScraper(Scraper):
 				return '', '', [], '', '', ''
 
 			# Fecha - hora
-			datos_fecha = self.wd.find_element_by_class_name('byline-date').text.strip().split(' ')
-			dia, mes, anio = datos_fecha[0], datos_fecha[2], datos_fecha[4]
-			fecha = '%s/%s/%s' % (dia, meses[mes], anio)
+			fecha = ''
 			hora = ''
+			if self.wd.find_elements_by_class_name('byline-date'):
+				datos_fecha = self.wd.find_element_by_class_name('byline-date').text.strip().split(' ')
+				dia, mes, anio = datos_fecha[0], datos_fecha[2], datos_fecha[4]
+				fecha = '%s/%s/%s' % (dia, meses[mes], anio)
 
 			# Categoria
 			categoria = []
