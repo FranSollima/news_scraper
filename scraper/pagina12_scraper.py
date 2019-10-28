@@ -48,7 +48,7 @@ class Pagina12Scraper(Scraper):
 
 		return tabla_noticias
 
-	def get_noticias_categoria(self, link_cat, tabla_noticias, limite_tiempo=20):
+	def get_noticias_categoria(self, link_cat, tabla_noticias):
 		# Fecha de ayer
 		# fecha_ayer = datetime.datetime.now() - datetime.timedelta(1)
 		fecha_ayer = datetime.datetime.now()

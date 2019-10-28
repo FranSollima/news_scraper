@@ -9,7 +9,7 @@ class ClarinScraper(Scraper):
 	def __init__(self, root_dir):
 		super(ClarinScraper, self).__init__(root_dir, 'clarin')
 
-	def get_tabla_noticias(self, nro_noticias_maxima=300, limite_tiempo=20):
+	def get_tabla_noticias(self, nro_noticias_maxima=480, limite_tiempo=60):
 		# Abrimos la pagina con las ultimas noticias
 		self.wd.get('https://www.clarin.com/ultimas-noticias')
 

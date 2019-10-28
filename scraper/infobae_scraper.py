@@ -9,7 +9,7 @@ class InfobaeScraper(Scraper):
 	def __init__(self, root_dir):
 		super(InfobaeScraper, self).__init__(root_dir, 'infobae')
 
-	def get_tabla_noticias(self, nro_noticias_maxima=600, limite_tiempo=20):
+	def get_tabla_noticias(self, nro_noticias_maxima=600, limite_tiempo=60):
 		# Abrimos la pagina con las ultimas noticias
 		self.wd.get('https://www.infobae.com/ultimas-noticias/')
 

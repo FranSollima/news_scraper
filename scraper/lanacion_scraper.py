@@ -9,7 +9,7 @@ class LaNacionScraper(Scraper):
 	def __init__(self, root_dir):
 		super(LaNacionScraper, self).__init__(root_dir, 'la nacion')
 
-	def get_tabla_noticias(self, limite_tiempo=20):
+	def get_tabla_noticias(self, limite_tiempo=60):
 		# Abrimos la pagina con las ultimas noticias
 		self.wd.get('https://www.lanacion.com.ar/ultimas-noticias')
 
