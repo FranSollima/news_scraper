@@ -13,7 +13,7 @@ class LaNacionScraper(Scraper):
 		# Abrimos la pagina con las ultimas noticias
 		self.wd.get('https://www.lanacion.com.ar/ultimas-noticias')
 
-		while self.wd.find_element_by_id('verMas').is_displayed():
+		while self.wd.find_elements_by_id('verMas') and self.wd.find_element_by_id('verMas').is_displayed():
 			# Agregamos mas noticias
 			begin_time = time.time()
 			nro_noticias = len(self.wd.find_element_by_class_name('listado').find_elements_by_tag_name('article'))
