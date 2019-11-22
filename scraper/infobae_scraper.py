@@ -9,10 +9,12 @@ class InfobaeScraper(Scraper):
 	def __init__(self, root_dir):
 		super(InfobaeScraper, self).__init__(root_dir, 'infobae')
 
-	def get_tabla_noticias(self, nro_noticias_maxima=600, limite_tiempo=60):
+	def get_tabla_noticias(self, nro_noticias_maxima=500, limite_tiempo=60):
 		# Abrimos la pagina con las ultimas noticias
 		self.wd.get('https://www.infobae.com/ultimas-noticias/')
 
+		links_ultimas_noticias_descargadas = [elem['link_noticia'] for elem in self.ultima_tabla_noticias_descargada]
+		noticia_cargada_alcanzada = False
 		nro_noticias = len(self.wd.find_element_by_class_name('result-listing').find_elements_by_tag_name('article'))
 		while nro_noticias < nro_noticias_maxima:
 			# Agregamos mas noticias
@@ -27,10 +29,14 @@ class InfobaeScraper(Scraper):
 			# Vemos las noticias presentes en la pagina
 			noticias_cargadas_en_browser = self.wd.find_element_by_class_name('result-listing').find_elements_by_tag_name('article')
 			nro_noticias = len(noticias_cargadas_en_browser)
-			# print(nro_noticias)
-			# Si ya aparecio la ultima noticia bajada, cargamos hasta ahi
+			print(nro_noticias)
+			# Si ya aparecio alguna noticia ya descargada, cargamos hasta ahi
 			links_noticias_cargadas_en_browser = [elem.find_element_by_tag_name('a').get_attribute('href') for elem in noticias_cargadas_en_browser]
-			if self.ultima_noticia_descargada in links_noticias_cargadas_en_browser:
+			for link_noticia in links_ultimas_noticias_descargadas:
+				if link_noticia in links_noticias_cargadas_en_browser:
+					noticia_cargada_alcanzada = True
+					break
+			if noticia_cargada_alcanzada:
 				break
 
 		# Obtenemos los links y los datos basicos de las noticias cargadas
@@ -41,7 +47,7 @@ class InfobaeScraper(Scraper):
 			# Link noticia completa
 			link_noticia = noticia.find_element_by_tag_name('a').get_attribute('href')
 			# Si alcanzamos la ultima noticia ya cargada, interrumpimos (para no cargar duplicado)
-			if link_noticia == self.ultima_noticia_descargada:
+			if link_noticia in links_ultimas_noticias_descargadas:
 				break
 			# Titulo
 			titulo = noticia.find_element_by_tag_name('h4').text
