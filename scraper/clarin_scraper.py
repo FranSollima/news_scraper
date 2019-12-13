@@ -9,7 +9,7 @@ class ClarinScraper(Scraper):
 	def __init__(self, root_dir):
 		super(ClarinScraper, self).__init__(root_dir, 'clarin')
 
-	def get_tabla_noticias(self, nro_noticias_maxima=480, limite_tiempo=60):
+	def get_tabla_noticias(self, nro_noticias_maxima=600, limite_tiempo=60):
 		# Abrimos la pagina con las ultimas noticias
 		self.wd.get('https://www.clarin.com/ultimas-noticias')
 
@@ -121,16 +121,32 @@ class ClarinScraper(Scraper):
 
 	def add_cuerpo_noticias(self, tabla_noticias):
 		# Abrimos cada noticia y obtenemos su cuerpo
+		# print(len(tabla_noticias))
 		for i in range(len(tabla_noticias)):
+			# print(tabla_noticias[i]['link_noticia'])
 			# Cada cuatro noticias reiniciamos el browser
 			if (i%4)==0:
 				self.restartBrowser()
-			# Obtenemos el cuerpo de la noticia
-			fecha, hora, autor, cuerpo = self.get_cuerpo_noticia(tabla_noticias[i])
-			tabla_noticias[i]['fecha'] = fecha
-			tabla_noticias[i]['hora'] = hora
-			tabla_noticias[i]['autor'] = autor
-			tabla_noticias[i]['cuerpo'] = cuerpo
-			# print(i+1)
+			# Intentamos descargar cada noticia 5 veces antes de tirar un error general
+			retries = 0
+			while retries < 5:
+				# Obtenemos el cuerpo de la noticia
+				resultados = self.get_cuerpo_noticia(tabla_noticias[i])
+				if len(resultados) != 4:
+					retries += 1
+					print('Error descargando noticia')
+					print('Reintentos restantes: %i' % (5 - retries))
+					self.restartBrowser()
+					continue
+				fecha, hora, autor, cuerpo = self.get_cuerpo_noticia(tabla_noticias[i])
+				tabla_noticias[i]['fecha'] = fecha
+				tabla_noticias[i]['hora'] = hora
+				tabla_noticias[i]['autor'] = autor
+				tabla_noticias[i]['cuerpo'] = cuerpo
+				break
+			print(i+1)
+
+			# Guardamos las noticias bajadas hasta ahora en el json de salida (para no perder el progreso)
+			self.save_json_noticias(tabla_noticias)
 
 		return tabla_noticias
