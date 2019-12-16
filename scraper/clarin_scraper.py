@@ -144,7 +144,7 @@ class ClarinScraper(Scraper):
 				tabla_noticias[i]['autor'] = autor
 				tabla_noticias[i]['cuerpo'] = cuerpo
 				break
-			print(i+1)
+			# print(i+1)
 
 			# Guardamos las noticias bajadas hasta ahora en el json de salida (para no perder el progreso)
 			self.save_json_noticias(tabla_noticias)
