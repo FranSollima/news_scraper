@@ -3,13 +3,14 @@
 
 from .scraper import Scraper
 import time
+import re
 
 class ClarinScraper(Scraper):
 	"""Aparentemente se puede bajar hacia atras ilimitadamente"""
 	def __init__(self, root_dir):
 		super(ClarinScraper, self).__init__(root_dir, 'clarin')
 
-	def get_tabla_noticias(self, nro_noticias_maxima=600, limite_tiempo=60):
+	def get_tabla_noticias(self, nro_noticias_maxima=200, limite_tiempo=500):
 		# Abrimos la pagina con las ultimas noticias
 		self.wd.get('https://www.clarin.com/ultimas-noticias')
 
@@ -75,6 +76,7 @@ class ClarinScraper(Scraper):
 		return tabla_noticias
 
 	def get_cuerpo_noticia(self, noticia):
+		print('Intentamos descargar los datos de la noticia')
 		# Abrimos la noticia
 		self.wd.get(noticia['link_noticia'])
 
@@ -102,9 +104,27 @@ class ClarinScraper(Scraper):
 			self.wd.get(noticia['link_noticia'])
 
 		# Fecha - hora
+		fecha_hora = self.wd.find_element_by_class_name('entry-head').find_element_by_class_name('breadcrumb').text
+		fecha = re.findall('\d{2}\/\d{2}\/\d{4}', fecha_hora)
+		hora = re.findall('\d{2}\:\d{2}', fecha_hora)
+		if fecha:
+			fecha = fecha[0]
+		else:
+			fecha = fecha_hora
+		if hora:
+			hora = hora[0]
+		else:
+			hora = fecha_hora
+
+		if not fecha or not hora:
+			fecha = fecha_hora
+			hora = fecha_hora
+
+		"""
 		fecha, hora = self.wd.find_element_by_class_name('entry-head').find_element_by_class_name('breadcrumb').text.split('\n')[0].split('-')
 		fecha = fecha.strip()
 		hora = hora.strip()
+		"""
 
 		# Autor
 		autor = ''
@@ -144,7 +164,7 @@ class ClarinScraper(Scraper):
 				tabla_noticias[i]['autor'] = autor
 				tabla_noticias[i]['cuerpo'] = cuerpo
 				break
-			# print(i+1)
+			print(i+1)
 
 			# Guardamos las noticias bajadas hasta ahora en el json de salida (para no perder el progreso)
 			self.save_json_noticias(tabla_noticias)

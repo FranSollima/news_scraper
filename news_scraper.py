@@ -49,7 +49,6 @@ def ejecuta_scraper(scraper):
 
 if __name__ == '__main__':
 	printlog('-------------------------------------------------------------------------')
-	# for scraper in (ClarinScraper, ):
 	for scraper in (ClarinScraper, LaNacionScraper, InfobaeScraper, Pagina12Scraper):
 		thread = Thread(target=ejecuta_scraper, args=(scraper,))
 		thread.start()

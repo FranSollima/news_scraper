@@ -66,6 +66,8 @@ class Scraper(object):
 		# Obtenemos las ultimas noticias, con sus datos basicos
 		print('Intentamos obtener la lista de noticias')
 		tabla_noticias = self.get_tabla_noticias()
+		if not tabla_noticias:
+			raise ValueError('Problemas al obtener la tabla de noticias')
 		self.restartBrowser()  # Nuevo browser
 
 		# Otenemos el cuerpo de las noticias obtenidas
@@ -73,6 +75,7 @@ class Scraper(object):
 		tabla_noticias = self.add_cuerpo_noticias(tabla_noticias)
 
 		# Bajamos los datos a un archivo json
+		print('Guardamos los datos de las noticias en un json')
 		self.save_json_noticias(tabla_noticias)
 
 		# Tiempo de finalizacion
