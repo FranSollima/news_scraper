@@ -9,25 +9,25 @@ class InfobaeScraper(Scraper):
 	def __init__(self, root_dir):
 		super(InfobaeScraper, self).__init__(root_dir, 'infobae')
 
-	def get_tabla_noticias(self, nro_noticias_maxima=500, limite_tiempo=60):
+	def get_tabla_noticias(self, nro_noticias_maxima=400, limite_tiempo=60):
 		# Abrimos la pagina con las ultimas noticias
 		self.wd.get('https://www.infobae.com/ultimas-noticias/')
 
 		links_ultimas_noticias_descargadas = [elem['link_noticia'] for elem in self.ultima_tabla_noticias_descargada]
 		noticia_cargada_alcanzada = False
-		nro_noticias = len(self.wd.find_element_by_class_name('result-listing').find_elements_by_tag_name('article'))
+		nro_noticias = len(self.wd.find_element_by_class_name('feed-list-wrapper').find_elements_by_class_name('feed-list'))
 		while nro_noticias < nro_noticias_maxima:
 			# Agregamos mas noticias
 			begin_time = time.time()
-			self.wd.execute_script('window.scrollTo(0, document.body.scrollHeight);document.getElementsByClassName("pb-loadmore")[0].click();')
+			self.wd.execute_script('window.scrollTo(0, document.body.scrollHeight);document.getElementsByClassName("read-more")[document.getElementsByClassName("read-more").length-1].click();')
 			# Esperamos a que se carguen mas noticias
-			while len(self.wd.find_element_by_class_name('result-listing').find_elements_by_tag_name('article')) <= nro_noticias:
+			while len(self.wd.find_element_by_class_name('feed-list-wrapper').find_elements_by_class_name('feed-list')) <= nro_noticias:
 				# Si pasa demasiado tiempo, se trabo la pagina. Reiniciamos el browser
 				if time.time() - begin_time > limite_tiempo:
 					# print('Timeout error intentando obtener la lista de noticias. Reiniciamos el Browser.')
 					return False
 			# Vemos las noticias presentes en la pagina
-			noticias_cargadas_en_browser = self.wd.find_element_by_class_name('result-listing').find_elements_by_tag_name('article')
+			noticias_cargadas_en_browser = self.wd.find_element_by_class_name('feed-list-wrapper').find_elements_by_class_name('feed-list')
 			nro_noticias = len(noticias_cargadas_en_browser)
 			print(nro_noticias)
 			# Si ya aparecio alguna noticia ya descargada, cargamos hasta ahi
@@ -41,30 +41,30 @@ class InfobaeScraper(Scraper):
 
 		# Obtenemos los links y los datos basicos de las noticias cargadas
 		tabla_noticias = []
-		for noticia in self.wd.find_element_by_class_name('result-listing').find_elements_by_tag_name('article'):
+		for noticia in self.wd.find_element_by_class_name('feed-list-wrapper').find_elements_by_class_name('feed-list'):
 			# Fecha
-			fecha = noticia.find_element_by_tag_name('time').text
+			# fecha = noticia.find_element_by_tag_name('time').text
 			# Link noticia completa
 			link_noticia = noticia.find_element_by_tag_name('a').get_attribute('href')
 			# Si alcanzamos la ultima noticia ya cargada, interrumpimos (para no cargar duplicado)
 			if link_noticia in links_ultimas_noticias_descargadas:
 				break
 			# Titulo
-			titulo = noticia.find_element_by_tag_name('h4').text
+			titulo = noticia.find_element_by_tag_name('h2').text
 			# Link foto
 			link_foto = ''
 			if noticia.find_elements_by_tag_name('img'):
 				link_foto = noticia.find_element_by_tag_name('img').get_attribute('src')
 			# Resumen
-			resumen = noticia.find_element_by_class_name('excerpt').text
+			# resumen = noticia.find_element_by_class_name('deck | isText').text
 			# Agregamos el diccionario con todos los datos a tabla_noticias
 			tabla_noticias.append({
-				'fecha_resumen': fecha,
+				'fecha_resumen': None,
 				'link_noticia': link_noticia,
 				'volanta': '',
 				'titulo': titulo,
 				'link_foto': link_foto,
-				'resumen': resumen,
+				'resumen': None,
 				'etiquetas': []
 			})
 			# print(len(tabla_noticias))
