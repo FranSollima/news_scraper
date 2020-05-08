@@ -29,7 +29,7 @@ class InfobaeScraper(Scraper):
 			# Vemos las noticias presentes en la pagina
 			noticias_cargadas_en_browser = self.wd.find_element_by_class_name('feed-list-wrapper').find_elements_by_class_name('feed-list')
 			nro_noticias = len(noticias_cargadas_en_browser)
-			print(nro_noticias)
+			# print(nro_noticias)
 			# Si ya aparecio alguna noticia ya descargada, cargamos hasta ahi
 			links_noticias_cargadas_en_browser = [elem.find_element_by_tag_name('a').get_attribute('href') for elem in noticias_cargadas_en_browser]
 			for link_noticia in links_ultimas_noticias_descargadas:

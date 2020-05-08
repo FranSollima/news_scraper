@@ -76,7 +76,7 @@ class ClarinScraper(Scraper):
 		return tabla_noticias
 
 	def get_cuerpo_noticia(self, noticia):
-		print('Intentamos descargar los datos de la noticia')
+		# print('Intentamos descargar los datos de la noticia')
 		# Abrimos la noticia
 		self.wd.get(noticia['link_noticia'])
 
@@ -164,7 +164,7 @@ class ClarinScraper(Scraper):
 				tabla_noticias[i]['autor'] = autor
 				tabla_noticias[i]['cuerpo'] = cuerpo
 				break
-			print(i+1)
+			# print(i+1)
 
 			# Guardamos las noticias bajadas hasta ahora en el json de salida (para no perder el progreso)
 			# self.save_json_noticias(tabla_noticias)

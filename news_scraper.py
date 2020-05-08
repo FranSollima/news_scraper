@@ -49,6 +49,17 @@ def ejecuta_scraper(scraper):
 
 if __name__ == '__main__':
 	printlog('-------------------------------------------------------------------------')
-	for scraper in (ClarinScraper, LaNacionScraper, InfobaeScraper, Pagina12Scraper):
+	lista_scrapers = (ClarinScraper, LaNacionScraper, InfobaeScraper, Pagina12Scraper)
+	if len(sys.argv) > 1:
+		scraper_solicitado = sys.argv[1]
+		if scraper_solicitado == 'clarin':
+			lista_scrapers = (ClarinScraper, )
+		elif scraper_solicitado == 'lanacion':
+			lista_scrapers = (LaNacionScraper, )
+		elif scraper_solicitado == 'infobae':
+			lista_scrapers = (InfobaeScraper, )
+		elif scraper_solicitado == 'pagina12':
+			lista_scrapers = (Pagina12Scraper, )
+	for scraper in lista_scrapers:
 		thread = Thread(target=ejecuta_scraper, args=(scraper,))
 		thread.start()

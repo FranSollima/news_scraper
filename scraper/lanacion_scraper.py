@@ -123,14 +123,23 @@ class LaNacionScraper(Scraper):
 		# Abrimos cada noticia y obtenemos su cuerpo
 		for i in range(len(tabla_noticias)):
 			# Cada cuatro noticias reiniciamos el browser
-			if (i%15)==0:
+			if (i%4)==0:
 				self.restartBrowser()
-			# Obtenemos el cuerpo de la noticia
-			try:
-				fecha, hora, categoria, etiqueta, autor, cuerpo = self.get_cuerpo_noticia(tabla_noticias[i])
-			except Exception as e:
-				raise e
-				# import ipdb; ipdb.set_trace()
+
+			# Intentamos descargar cada noticia 5 veces antes de tirar un error general
+			retries = 0
+			while True:
+				# Obtenemos el cuerpo de la noticia
+				try:
+					fecha, hora, categoria, etiqueta, autor, cuerpo = self.get_cuerpo_noticia(tabla_noticias[i])
+				except Exception as e:
+					retries += 1
+					if retries == 5:
+						raise e
+					# print('Error descargando noticia')
+					# print('Reintentos restantes: %i' % (5 - retries))
+					self.restartBrowser()
+
 			tabla_noticias[i]['fecha'] = fecha
 			tabla_noticias[i]['hora'] = hora
 			tabla_noticias[i]['categoria'] = categoria
