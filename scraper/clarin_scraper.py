@@ -167,6 +167,6 @@ class ClarinScraper(Scraper):
 			print(i+1)
 
 			# Guardamos las noticias bajadas hasta ahora en el json de salida (para no perder el progreso)
-			self.save_json_noticias(tabla_noticias)
+			# self.save_json_noticias(tabla_noticias)
 
 		return tabla_noticias
