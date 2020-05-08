@@ -151,18 +151,26 @@ class Pagina12Scraper(Scraper):
 		# Abrimos cada noticia y obtenemos su cuerpo
 		# print(len(tabla_noticias))
 		for i in range(len(tabla_noticias)):
-			# Obtenemos el cuerpo de la noticia
-			try:
-				fecha, hora, volanta, resumen, autor, cuerpo = self.get_cuerpo_noticia(tabla_noticias[i])
-				tabla_noticias[i]['fecha'] = fecha
-				tabla_noticias[i]['hora'] = hora
-				tabla_noticias[i]['volanta'] = volanta
-				tabla_noticias[i]['resumen'] = resumen
-				tabla_noticias[i]['autor'] = autor
-				tabla_noticias[i]['cuerpo'] = cuerpo
-			except Exception as e:
-				raise e
-				# import ipdb; ipdb.set_trace()
+			# Intentamos descargar cada noticia 5 veces antes de tirar un error general
+			retries = 0
+			while True:
+				# Obtenemos el cuerpo de la noticia
+				try:
+					fecha, hora, volanta, resumen, autor, cuerpo = self.get_cuerpo_noticia(tabla_noticias[i])
+				except Exception as e:
+					retries += 1
+					if retries == 5:
+						raise e
+					# print('Error descargando noticia')
+					# print('Reintentos restantes: %i' % (5 - retries))
+					self.restartBrowser()
+
+			tabla_noticias[i]['fecha'] = fecha
+			tabla_noticias[i]['hora'] = hora
+			tabla_noticias[i]['volanta'] = volanta
+			tabla_noticias[i]['resumen'] = resumen
+			tabla_noticias[i]['autor'] = autor
+			tabla_noticias[i]['cuerpo'] = cuerpo
 			# print(i+1)
 
 		return tabla_noticias
